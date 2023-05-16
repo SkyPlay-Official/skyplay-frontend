@@ -1,38 +1,77 @@
-.App {
+
+body
+{
+  background:url(https://wallpapercave.com/wp/p1LwbkU.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.card
+{
+  background-color: rgba(20,18,18,0.7) !important;
+  margin-left:42%;
+  margin-top:10%;
+  position:relative;
+}
+.return
+{
+  color:black;
+  text-decoration: none;
+  position:relative;
+  left:130px;
+  font-family: 'Noto Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif;
+
+
+}
+.returns
+{
+    color:black;
+    text-decoration: none;
+    position:relative;
+    left:105px;
+    font-family: 'Noto Sans', sans-serif;
+   font-family: 'PT Sans', sans-serif;
+}
+.returns:hover
+{
+  text-decoration: underline;
+  color:black;
+}
+.google
+{
+  background-color: white;
+}
+.google:hover{
+  border:1px solid black;
+}
+.return:hover
+{
+  text-decoration: underline;
+  color:black;
+}
+.center{
   text-align: center;
 }
+button
+{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ background-color: rgba(247,246,231) !important;
+ color:black !important;
+ border-color:rgba(247,246,231,0.2) !important;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-group
+{
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title
+{
+  text-align: center;
+  padding-bottom: 30px;
+  color:rgb(60, 60, 60);
+  font-family: 'Crimson Text', serif;
 }
